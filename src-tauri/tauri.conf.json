@@ -41,6 +41,7 @@
     ],
     "windows": {
       "nsis": {
+        "installerIcon": "icons/icon.ico",
         "languages": ["Japanese"]
       }
     }
