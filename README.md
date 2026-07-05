@@ -43,8 +43,4 @@ npx tauri build
 
 ## ライセンス
 
-MIT
-
-## 作者
-
-soheidon
+MIT License
