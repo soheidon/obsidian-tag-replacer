@@ -18,7 +18,7 @@ Obsidian Vault 内のタグを一括置換するデスクトップアプリ。YA
 
 ## インストール
 
-[Releases](https://github.com/soheidon/obsidian-tag-replacer/releases) から最新の `.msi` または `.exe` インストーラーをダウンロードしてください。
+[Releases](https://github.com/soheidon/obsidian-tag-replacer/releases) から最新の `.exe` インストーラーをダウンロードしてください。
 
 ## 使い方
 
