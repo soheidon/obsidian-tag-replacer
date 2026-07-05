@@ -11,11 +11,6 @@ Obsidian Vault 内のタグを一括置換するデスクトップアプリ。YA
 - バックアップを作成してからの置換（またはバックアップなしでも実行可能）
 - 日本語 UI
 
-## 技術スタック
-
-- [Tauri v2](https://v2.tauri.app/) + [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vite.dev/)
-- Rust バックエンド（`regex`, `walkdir`, `chrono`）
-
 ## インストール
 
 [Releases](https://github.com/soheidon/obsidian-tag-replacer/releases) から最新の `.exe` インストーラーをダウンロードしてください。
@@ -27,19 +22,6 @@ Obsidian Vault 内のタグを一括置換するデスクトップアプリ。YA
 3. **検索** をクリック → 該当ファイル一覧を表示
 4. **変更内容を確認** で置換前後の差分をプレビュー
 5. **置換** または **バックアップして置換** で実行
-
-## 開発
-
-```bash
-# 依存関係のインストール
-npm install
-
-# 開発モードで起動
-npx tauri dev
-
-# リリースビルド
-npx tauri build
-```
 
 ## ライセンス
 

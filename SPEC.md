@@ -112,3 +112,21 @@ interface AppSettings {
 - ファイルごとのチェックボックス ON/OFF
 - Undo（バックアップからの復元）
 - 正規表現でのタグ指定
+
+## 技術スタック
+
+- [Tauri v2](https://v2.tauri.app/) + [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vite.dev/)
+- Rust バックエンド（`regex`, `walkdir`, `chrono`）
+
+## 開発
+
+```bash
+# 依存関係のインストール
+npm install
+
+# 開発モードで起動
+npx tauri dev
+
+# リリースビルド
+npx tauri build
+```
